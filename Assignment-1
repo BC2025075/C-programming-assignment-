@@ -8,3 +8,28 @@ printf("%d\n", numbers[0]);  // output 10
 printf("%d\n", numbers[3]);  // outpur 40
 return 0;
 }
+//Question.2  What do you mean by functions? Write the types of functions and give one example in code of each type.
+//A function is a block of code that performs a specific task.
+//Instead of writing the same code repeatedly, we can put it in a function and reuse it whenever needed.
+//Type of function 
+//1.liberery function(predefined).it is type of function which is stored by devloper it can not be changed.
+// example.printf,scanf etc.
+//2.user defind function- A user-defined function is a function created by the programmer to perform a specific task.
+//example.
+#include <stdio.h>
+
+// User-defined function
+int add(int x, int y) {
+    return x + y;
+}
+
+int main() {
+    // Predefined function example
+    printf("Hello mam!\n");
+
+    // User-defined function example
+    int result = add(7, 3);  // Function call
+    printf("Sum = %d\n", result);
+
+    return 0;
+}
