@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{// Question-1. What do you mean by arrays give one example of array and how you can declared an array?
+// an array is a collection of elements of the same data type stored in contiguous (continuous) memory locations.
+int numbers[5] = {10, 20, 30, 40, 50};
+printf("%d\n", numbers[0]);  // output 10
+printf("%d\n", numbers[3]);  // outpur 40
+return 0;
+}
